@@ -3,8 +3,8 @@
 
 def canUnlockAll(boxes):
     """houses the function"""
-   
-   num = len(boxes)
+
+    num = len(boxes)
     opened = set([0])
     stack = [0]
 
@@ -16,4 +16,3 @@ def canUnlockAll(boxes):
                 stack.append(key)
     
     return len(opened) == num
-
