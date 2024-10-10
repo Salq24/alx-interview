@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """To open all boxes"""
 
+
 def canUnlockAll(boxes):
     """houses the function"""
 
