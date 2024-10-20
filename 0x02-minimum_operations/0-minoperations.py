@@ -13,13 +13,14 @@ def min_operations(n):
     :param n: The number of 'H' characters desired.
     :return: The minimum number of operations.
     """
-    if n <= 1:
-        return 0  # No operations needed if n <= 1
 
     current_chars = 1  # Starting with 1 'H'
     last_copied = 0    # Number of characters last copied
     operations = 0     # Operation count
 
+    if n <= 1:
+        return 0  # No operations needed if n <= 1
+    
     while current_chars < n:
         # If the remaining characters (n - current_chars) is divisible
         # by the current number of characters, we should copy and then paste.
