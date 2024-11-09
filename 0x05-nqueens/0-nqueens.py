@@ -1,5 +1,8 @@
 #!/usr/bin/python3
+"""  a program that solves the N queens problem
+"""
 import sys
+
 
 def print_solution(board):
     """Prints the board in the required format"""
